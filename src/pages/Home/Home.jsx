@@ -1,4 +1,5 @@
 import './Home.css';
+import sampleImage from '../../../public/555.png';
 
 function Home() {
     return (
@@ -15,7 +16,7 @@ function Home() {
 
             <h1>My Safe Space</h1>
 
-           <img src='../public/555.png' className='home-img'/>
+            <img src={sampleImage} className="img-fluid rounded-circle home-img" alt="My Safe Space" />
 
             <p className='btn btn-warning'>
                 สวัสดีทุกท่าน! ผมชื่อ เมธาพร ทองนาค อายุ 20 ปี เป็นคนที่สนใจในเทคโนโลยี
