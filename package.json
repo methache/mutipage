@@ -2,7 +2,7 @@
   "name": "router",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://methache.github.io/mutipages",
+  "homepage": "https://methache.github.io/mutipage",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
