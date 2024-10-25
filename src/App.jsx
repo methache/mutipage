@@ -22,7 +22,7 @@ import "./App.css";
 const intTab = "Home";
 
 function App() {
-  const [token, setToken] = useState("x"); 
+  const [token, setToken] = useState(""); 
   const [role, setRole] = useState("");  
   const [tab, setTab] = useState("");
   const [products, setProducts] = useState([]);
