@@ -1,0 +1,8 @@
+.product-itemps-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* แก้ไขค่าช่องว่าง */
+    overflow-y: auto;
+    height: 560px;
+    align-items: start;
+}

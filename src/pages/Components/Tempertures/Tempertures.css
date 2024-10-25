@@ -1,0 +1,19 @@
+.tempertures-container{
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff;
+}
+.tempertures-title{
+    color: rgb(15, 15, 25);
+}
+.tempertures-variables{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+.tempertures-display{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}

@@ -1,0 +1,18 @@
+.add-container{
+   
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff;
+}
+
+.add-variables{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+.add-display{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}

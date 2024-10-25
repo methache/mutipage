@@ -1,0 +1,11 @@
+.navbar-container {
+    display: flex;
+    flex-wrap: wrap; /* เพิ่ม flex-wrap เพื่อให้ปุ่มสามารถลงแถวใหม่ได้เมื่อพื้นที่ไม่พอ */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* ระยะห่างระหว่างปุ่ม */
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}

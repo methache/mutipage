@@ -1,0 +1,46 @@
+.component-container{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.contain01 {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.contain03 {
+  width: 100%;
+  height: auto;
+}
+.contain04 {
+  width: 100%;
+  height: auto;
+}
+
+.componentcontainer {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../../../public/download.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.footer-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  height: auto;
+}

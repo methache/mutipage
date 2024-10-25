@@ -1,0 +1,81 @@
+.animate-container {
+    border: 1px solid #000;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: rgb(248, 247, 249);
+}
+
+#field {
+   
+    border: 1px solid #de2121;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url("../../../../public/wood.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /* variable */
+    width: 400px;
+    height: 300px;
+}
+
+#ball {
+    /* fixed */
+    border: 0.1px solid #000000;
+    border-radius: 60%;
+    background-color: rgb(214, 208, 241);
+    
+    background-size: 300%;
+    background-position: center;
+    position: relative;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+   
+
+   
+    width: 50px;
+    height: 50px;
+}
+
+#control {
+    /* border: 1px solid #3700ff; */
+    margin: 10px;
+}
+.btn-outline-secondary,
+.btn-outline-primary, 
+.btn-outline-warning, 
+.btn-outline-success, 
+.btn-outline-danger, 
+.btn-outline-info,
+.btn-outline-light,
+#run {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-primary:hover, 
+.btn-outline-warning:hover, 
+.btn-outline-success:hover, 
+.btn-outline-danger:hover, 
+.btn-outline-info:hover,
+.btn-outline-light:hover,
+#run:hover {
+    transform: scale(1.1);
+}
+
+#run {
+    margin-right: 20px;
+}
+
+#button-images {
+    margin-right: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn.selected {
+    background-color: rgba(0, 123, 255, 0.5); /* เปลี่ยนสีตามต้องการ */
+    color: white; /* เปลี่ยนสีข้อความ */
+}
